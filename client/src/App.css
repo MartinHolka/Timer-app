@@ -1,0 +1,37 @@
+/* color pallete
+#97CDF0 -- teal
+#97B2F0 -- light blue
+#9696F0 -- darker blue
+#B397F0 -- purple
+#D295F5 -- pink
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+.App {
+    text-align: center;
+}
+
+button {
+    font-size: 16px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
